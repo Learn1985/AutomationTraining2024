@@ -33,6 +33,6 @@ public class CharacterFunctions {
 
         c1='4';
 
-        System.out.println(Character.getNumericValue(c1));
+        //System.out.println(Character.getNumericValue(c1git ));
     }
 }
