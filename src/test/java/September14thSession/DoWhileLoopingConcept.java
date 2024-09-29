@@ -4,6 +4,14 @@ public class DoWhileLoopingConcept {
 
     public void main(String args[]) {
 
+        //Do-While Loop:
+        //Loop runs atleast once irrespective of the condition is satisfied or not
+
+        //Syntax of do-while loop:
+        //do{
+        //    //Statements to be executed
+        //}while(condition);
+
         int a = 10;
 
         do {
@@ -30,9 +38,12 @@ public class DoWhileLoopingConcept {
             System.out.println(c);
             c="Selenium Testing";
             System.out.println(c);
-            break;
+            break;  //Terminates from the loop immediately which does not check the condition again
         }
         while (c=="Selenium Testing");
+
+        // == in Strings is used to compare the memory location of the strings
+        // .equals() in Strings is used to compare the values of the strings
 
         c="New Day";
 
