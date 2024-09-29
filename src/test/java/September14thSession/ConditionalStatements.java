@@ -1,6 +1,6 @@
 package September14thSession;
 
-import static java.lang.StringTemplate.STR;
+//import static java.lang.StringTemplate.STR;
 
 public class ConditionalStatements {
 
@@ -37,7 +37,9 @@ public class ConditionalStatements {
         //50
         //% means remainder of a number
         if (a % 2 == 0)
+//        System.out.println(a+" is divisible by 2");
             System.out.println(STR."\{a} is divisible by 2");
+
 
         //Syntax of if else statement:
         //if(condition){
@@ -137,6 +139,7 @@ public class ConditionalStatements {
         } else {
             System.out.println("The value of e is not 10 or 20");
         }
+
 
     }
 
